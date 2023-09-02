@@ -16,24 +16,24 @@
   <meta name="author" content="Coldnine">
   <meta name="keywords" content="">
   
-    <meta name="description" content="gitlab和jihulab的操作步骤完全一样，国内推荐使用jihulab。jihulab的单个项目存储空间限制为2G，月流量限制为10G，没看到限制单文件大小，测试100M的文件可以正常上传和下载。已知的问题：引用视频时，无法拖动视频的播放进度。  安装 picgopicgo是跨平台的开源图床工具，此教程以 Windows 演示。  打开 picgo 的详细窗口，在插件设置中搜索gitlab，">
+    <meta name="description" content="由于不可抗力，github时断时续，有时候连接不上，而gitee有需要实名认证，所以作为替代品jihulab可以作为git同步代码，同时可以向gitlab和github同步代码。 创建空repo在https:&#x2F;&#x2F;jihulab.com创建空repo Git设置12345678cd ~&#x2F;XXX&#x2F;sckitgit config --global user.name &quot;yourname&amp;quo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="picgo + gitlab&#x2F;jihulab 搭建国内可流畅访问的图床和视频床">
-<meta property="og:url" content="https://coldnine009.github.io/2023/08/29/2023082902/index.html">
+<meta property="og:title" content="gitlab向github同步代码">
+<meta property="og:url" content="https://coldnine009.github.io/2023/09/02/2023090202/index.html">
 <meta property="og:site_name" content="Coldnine&#39;s Blog">
-<meta property="og:description" content="gitlab和jihulab的操作步骤完全一样，国内推荐使用jihulab。jihulab的单个项目存储空间限制为2G，月流量限制为10G，没看到限制单文件大小，测试100M的文件可以正常上传和下载。已知的问题：引用视频时，无法拖动视频的播放进度。  安装 picgopicgo是跨平台的开源图床工具，此教程以 Windows 演示。  打开 picgo 的详细窗口，在插件设置中搜索gitlab，">
+<meta property="og:description" content="由于不可抗力，github时断时续，有时候连接不上，而gitee有需要实名认证，所以作为替代品jihulab可以作为git同步代码，同时可以向gitlab和github同步代码。 创建空repo在https:&#x2F;&#x2F;jihulab.com创建空repo Git设置12345678cd ~&#x2F;XXX&#x2F;sckitgit config --global user.name &quot;yourname&amp;quo">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_12_28_v2-cee6295facc3323e657e32587e078a92_1440w.awebp.png">
-<meta property="article:published_time" content="2023-08-29T08:11:17.000Z">
-<meta property="article:modified_time" content="2023-08-29T08:37:57.864Z">
+<meta property="og:image" content="https://s2.loli.net/2023/09/02/Rjhb7wuCJ5rdEpG.jpg">
+<meta property="article:published_time" content="2023-09-02T08:41:57.000Z">
+<meta property="article:modified_time" content="2023-09-02T09:02:01.443Z">
 <meta property="article:author" content="Coldnine">
 <meta property="article:tag" content="技术分享">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_12_28_v2-cee6295facc3323e657e32587e078a92_1440w.awebp.png">
+<meta name="twitter:image" content="https://s2.loli.net/2023/09/02/Rjhb7wuCJ5rdEpG.jpg">
   
   
   
-  <title>picgo + gitlab/jihulab 搭建国内可流畅访问的图床和视频床 - Coldnine&#39;s Blog</title>
+  <title>gitlab向github同步代码 - Coldnine&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -199,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="picgo + gitlab/jihulab 搭建国内可流畅访问的图床和视频床"></span>
+            <span id="subtitle" data-typed-text="gitlab向github同步代码"></span>
           
         </div>
 
@@ -210,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-29 16:11" pubdate>
-          2023年8月29日 下午
+        <time datetime="2023-09-02 16:41" pubdate>
+          2023年9月2日 下午
         </time>
       </span>
     
@@ -254,35 +254,28 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">picgo + gitlab/jihulab 搭建国内可流畅访问的图床和视频床</h1>
+            <h1 id="seo-header">gitlab向github同步代码</h1>
             
             
               <div class="markdown-body">
                 
-                <blockquote>
-<p>gitlab和jihulab的操作步骤完全一样，国内推荐使用jihulab。<br>jihulab的单个项目存储空间限制为2G，月流量限制为10G，没看到限制单文件大小，测试100M的文件可以正常上传和下载。<br>已知的问题：引用视频时，无法拖动视频的播放进度。</p>
-</blockquote>
-<h2 id="安装-picgo"><a href="#安装-picgo" class="headerlink" title="安装 picgo"></a>安装 picgo</h2><p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">picgo</a>是跨平台的开源图床工具，此教程以 Windows 演示。</p>
-<ul>
-<li>打开 picgo 的详细窗口，在插件设置中搜索gitlab，安装gitlab-files插件。<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_23_34_01.bmp" srcset="/img/loading.gif" lazyload></li>
-</ul>
-<h2 id="获取-jihulab-配置项"><a href="#获取-jihulab-配置项" class="headerlink" title="获取 jihulab 配置项"></a>获取 jihulab 配置项</h2><ol>
-<li>注册 <a target="_blank" rel="noopener" href="https://jihulab.com/">jihulab</a></li>
-<li>新建项目，可见性要选公开</li>
-<li>获取项目id</li>
-<li>获取Token<ol>
-<li>点击头像</li>
-<li>偏好设置</li>
-<li>左边能看到“访问令牌”</li>
-<li>添加新令牌</li>
-<li>令牌名称随便填，下边的权限全选，点创建即可</li>
-</ol>
-</li>
-</ol>
-<h2 id="配置-gitlab-插件"><a href="#配置-gitlab-插件" class="headerlink" title="配置 gitlab 插件"></a>配置 gitlab 插件</h2><p>打开 picgo 详细窗口 → 图床设置<br>只填前四个参数，其余的默认即可，默认分支要改为main ，最后记得设置为默认图床。<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_31_32_v2-b4ebd0478cc905c141edbf8f9b858d48_720w.webp" srcset="/img/loading.gif" lazyload></p>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_31_48_v2-ecae45005072f1616af34ccba4dd3d60_720w.webp" srcset="/img/loading.gif" lazyload><br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_31_58_v2-f08c477ec7d36b726bb81c37a1aa2a59_720w.webp" srcset="/img/loading.gif" lazyload><br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/08/29_16_32_7_v2-9bca726d3ee926bc90afe8a9f4187114_720w.webp" srcset="/img/loading.gif" lazyload alt="相册中可以删除历史上传，jihulab中也会同步删除"></p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/530824958">https://zhuanlan.zhihu.com/p/530824958</a></p>
+                <p>由于不可抗力，github时断时续，有时候连接不上，而gitee有需要实名认证，所以作为替代品jihulab可以作为git同步代码，同时可以向gitlab和github同步代码。</p>
+<h2 id="创建空repo"><a href="#创建空repo" class="headerlink" title="创建空repo"></a>创建空repo</h2><p>在<a target="_blank" rel="noopener" href="https://jihulab.com/">https://jihulab.com</a>创建空repo<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_49_3_8cada0cc684cc7bd2324490c2bd2f706.png" srcset="/img/loading.gif" lazyload><br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_50_51_26ff0f9fd5ea06264e2c8291ed3cdd60.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="Git设置"><a href="#Git设置" class="headerlink" title="Git设置"></a>Git设置</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell">cd ~/XXX/sckit<br>git config --global user.name &quot;yourname&quot;<br>git config --global user.email &quot;youremail&quot;<br>git init --initial-branch=main<br>git remote add origin https://jihulab.com/XXX/sckit.git<br>git add .<br>git commit -m &quot;Initial commit&quot;<br>git push -u origin main<br></code></pre></td></tr></table></figure>
 
+<h2 id="生成github-token"><a href="#生成github-token" class="headerlink" title="生成github token"></a>生成github token</h2><p>在<a target="_blank" rel="noopener" href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>生成token<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_55_16_d2a9d68a283b2290b02f0c2b37374e41.png" srcset="/img/loading.gif" lazyload></p>
+<p>随便给token设置个名字和有效期<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_55_54_57f81c515b6e974dcffd70ada13529d3.png" srcset="/img/loading.gif" lazyload></p>
+<p>在下边选择token的访问权限</p>
+<p>最后生成的token类似ghp_XXXXXXXXXXXXXXXXXXX这样</p>
+<h2 id="gitlab向github同步代码"><a href="#gitlab向github同步代码" class="headerlink" title="gitlab向github同步代码"></a>gitlab向github同步代码</h2><p>进入<a target="_blank" rel="noopener" href="https://jihulab.com/BioQuest/sckit">https://jihulab.com/BioQuest/sckit</a>在左侧设置中选择仓库</p>
+<p>远端仓库的URL是在github仓库的前边加上 <span class="label label-info">用户名@</span></p>
+<p>把ghp_XXXXXXXXXXXXXXXXXXX填入到密码处</p>
+<p><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_58_18_4f05c9f11f9bdf217a1eb045d3187453.png" srcset="/img/loading.gif" lazyload></p>
+<p>点击绿圈刷新便能同步，之后<a target="_blank" rel="noopener" href="https://jihulab.com/BioQuest/scki">https://jihulab.com/BioQuest/scki</a>更新后会自动向github推送更新，实现同步功能。<br><img src="https://jihulab.com/Coldnine/picgo/-/raw/main/pictures/2023/09/2_16_59_43_245fcaba2d8555c924eb609b6574e352.png" srcset="/img/loading.gif" lazyload></p>
+<details>
+<summary>来源</summary>
+https://cloud.tencent.com/developer/article/2219597
+</details>
                 
               </div>
             
@@ -300,7 +293,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/picgo/" class="category-chain-item">picgo</a>
+  <a href="/categories/GitHub/" class="category-chain-item">GitHub</a>
   
   
 
@@ -327,8 +320,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>picgo + gitlab/jihulab 搭建国内可流畅访问的图床和视频床</div>
-      <div>https://coldnine009.github.io/2023/08/29/2023082902/</div>
+      <div>gitlab向github同步代码</div>
+      <div>https://coldnine009.github.io/2023/09/02/2023090202/</div>
     </div>
     <div class="license-meta">
       
@@ -340,13 +333,13 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年8月29日</div>
+          <div>2023年9月2日</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2023年8月29日</div>
+          <div>2023年9月2日</div>
         </div>
       
       
@@ -377,18 +370,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/09/02/2023090201/" title="免费图床，SM.MS">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">免费图床，SM.MS</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/08/29/2023082901/" title="office365 E5账户">
-                        <span class="hidden-mobile">office365 E5账户</span>
+                      <a href="/2023/09/02/2023090201/" title="免费图床，SM.MS">
+                        <span class="hidden-mobile">免费图床，SM.MS</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
