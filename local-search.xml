@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>李跳跳自定义规则</title>
+    <link href="/2023/09/11/2023091101/"/>
+    <url>/2023/09/11/2023091101/</url>
+    
+    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>李跳跳是一款知名的安卓跳过开屏广告应用，由于 <em><strong>不可抗力原因</strong></em> 已停止更新，最后的版本是李跳跳 2.2，该版本可以导入自定义去广告规则，配合 <a href="https://github.com/Snoopy1866/LiTiaotiao-Custom-Rules/">LiTiaotiao-Custom-Rules</a> 项目 由 GitHub 用户 @Snoopy1866 持续更新的李跳跳应用自定义规则，只要规则持续更新就可以一直正常使用。</p><p>下载地址：<a href="https://jsdelivr.b-cdn.net/gh/Snoopy1866/LiTiaotiao-Custom-Rules@main/_source/PaiDaXing/litiaotiao-pdx2.2.apk">litiaotiao.apk</a><br>如无法下载可使用：<a href="https://testingcf.jsdelivr.net/gh/Snoopy1866/LiTiaotiao-Custom-Rules@main/_source/PaiDaXing/litiaotiao-pdx2.2.apk">备用下载 1</a>、<a href="https://jsd.onmicrosoft.cn/gh/Snoopy1866/LiTiaotiao-Custom-Rules@main/_source/PaiDaXing/litiaotiao-pdx2.2.apk">备用下载 2</a></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><ul><li>前往 <a href="https://snoopy1866.github.io/LiTiaotiao-Custom-Rules/">李跳跳在线规则页面</a> 复制规则 （如无法打开可访问备用链接：<a href="https://testingcf.jsdelivr.net/gh/Snoopy1866/LiTiaotiao-Custom-Rules@main/AllRules.json">李跳跳全部规则</a> 全选内容复制）</li><li>打开 “李跳跳”，点击 “更多”，点击右上角三个小点，点击 “导入规则”，长按输入框，选择 “粘贴”，点击 “保存”。</li></ul><p>⚠ 建议长按输入框，以调用系统自带的粘贴功能，第三方 App（例如：输入法、微信等）作为中介进行复制，可能会出现规则被截断，粘贴不全导致格式错误的问题。</p><p>⚠ 李跳跳依赖系统的「辅助功能」，即「无障碍服务」，为了保证功能正常，请固定这类 App 将 app 锁住，防止内存自动清理，并去设置页面打开此 App 的自启动权限，并将 App 的省电策略设置为无限制。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>跳过开屏广告</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>gitlab向github同步代码</title>
     <link href="/2023/09/02/2023090202/"/>
     <url>/2023/09/02/2023090202/</url>
