@@ -911,13 +911,13 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v.api.aa1.cn/api/api-wenan-wangyiyunreping/index.php?aa1=json',
+          url: 'https://zj.v.api.aa1.cn/api/wenan-wy/?type=json',
           headers: {},
           dataType: 'json',
           success: function(result) {
             var apiText;
             if (result) {
-              var keys = 'wangyiyunreping'.split(',');
+              var keys = 'msg'.split(',');
               if (result instanceof Array) {
                 result = result[0];
               }
@@ -935,7 +935,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v.api.aa1.cn/api/api-wenan-wangyiyunreping/index.php?aa1=json:', error);
+              console.error('Failed to request https://zj.v.api.aa1.cn/api/wenan-wy/?type=json:', error);
             }
             typing(text);
           }
