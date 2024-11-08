@@ -222,6 +222,73 @@
     
     
       <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2024/01/08/2024010801/" target="_blank">
+          <img src="https://s2.loli.net/2024/01/08/e4w6H2jk1tKFGLM.jpg" srcset="/img/loading.gif" lazyload alt="2024 年 1 月 每日分享">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/01/08/2024010801/" target="_blank">
+          2024 年 1 月 每日分享
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt " href="/2024/01/08/2024010801/" target="_blank">
+        <div>
+          1 月 31 日琅琅配音@匿名投稿 宣称永久免费的文本转语音工具，支持多人配音功能，每周 10000 字转换额度，注册没有短信验证。 喵闪字库收录千余款免费商用字体，提供了在线预览和下载的功能，界面清爽，下载简单直接。 1 月 30 日找书神器无广告百万书库，在线网络小说搜索引擎。 1 月 28 日AI 图标生成器输入提示词自动生成 logo 图标。 Loom 新生代生产力工具@宋超投稿 Loom
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-01-08 10:35" pubdate>
+              2024-01-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="category-chain-item">技术分享</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">#技术分享</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2023/12/04/2023120401/" target="_blank">
           <img src="https://s2.loli.net/2023/12/04/DW59jEOo8z7aBQp.jpg" srcset="/img/loading.gif" lazyload alt="2023 年 12 月 每日分享">
         </a>
@@ -821,73 +888,6 @@
     </article>
   </div>
 
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2023/09/02/2023090201/" target="_blank">
-          <img src="https://s2.loli.net/2023/09/02/wQPJi7GIFXsCZgK.jpg" srcset="/img/loading.gif" lazyload alt="免费图床，SM.MS">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="/2023/09/02/2023090201/" target="_blank">
-          免费图床，SM.MS
-        </a>
-      </h2>
-
-      
-      <a class="index-excerpt " href="/2023/09/02/2023090201/" target="_blank">
-        <div>
-          推荐一个图床网站：SMMS 用户无须注册，即可免费使用。 但建议注册使用（免费）， 以便管理自己上传的图片。 每个文件最大5 MB， 每次最多上传10个文件。 上传完成后会提供多种格式复制： 登录用户有5GB的免费空间 个人感觉足够用个三五年了 图片管理面板可查看删除 来源：https://zhuanlan.zhihu.com/p/127235105
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-09-02 11:07" pubdate>
-              2023-09-02
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/sm-ms/" class="category-chain-item">sm.ms</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">#技术分享</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
 
 
   <nav aria-label="navigation">
@@ -984,13 +984,13 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://zj.v.api.aa1.cn/api/wenan-wy/?type=json',
+          url: 'https://api.vvhan.com/api/ian/rand?type=json',
           headers: {},
           dataType: 'json',
           success: function(result) {
             var apiText;
             if (result) {
-              var keys = 'msg'.split(',');
+              var keys = 'data,content'.split(',');
               if (result instanceof Array) {
                 result = result[0];
               }
@@ -1008,7 +1008,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://zj.v.api.aa1.cn/api/wenan-wy/?type=json:', error);
+              console.error('Failed to request https://api.vvhan.com/api/ian/rand?type=json:', error);
             }
             typing(text);
           }
