@@ -516,7 +516,7 @@
                 "addDate": 1699932324060,
                 "title": "[DEV] - APAC",
                 "icon": "https://logo.clearbit.com/dev.fos.tkeasia.com",
-                "url": "https://dev.fos.tkeasia.com/login.php?url=%2Fnisharp%2Fnihomepage"
+                "url": "https://dev.fos.tkeasia.com/sharp/admin/user"
               }
             ]
           },
@@ -779,6 +779,139 @@
             "children": [
               {
                 "type": "folder",
+                "addDate": 1733716073635,
+                "title": "[TKE] - Git",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1733716093409,
+                    "title": "[TKE] - VIEW · GitLab",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716093409,
+                    "title": "[TKE] - VIEW · GitLab（测试）",
+                    "icon": "https://logo.clearbit.com/gitk8stest.tkeasia.com",
+                    "url": "https://gitk8stest.tkeasia.com/VIEW"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716097746,
+                    "title": "[TKE] - Git-Code-DEV",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_code/-/commits/dev?ref_type=heads"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716109730,
+                    "title": "[TKE] - Git-Code-DEV2",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_code/-/commits/dev2?ref_type=heads"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716125002,
+                    "title": "[TKE] - Git-Code-RC",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_code/-/commits/rc?ref_type=heads"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716138786,
+                    "title": "[TKE] - Git-SQL-DEV",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_sql_2025/-/commits/main/dev?ref_type=heads"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716152970,
+                    "title": "[TKE] - Git-SQL-DEV2",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_sql_2025/-/commits/main/dev2?ref_type=heads"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733716165234,
+                    "title": "[TKE] - Git-SQL-RC",
+                    "icon": "https://logo.clearbit.com/git.tkeasia.com",
+                    "url": "https://git.tkeasia.com/VIEW/view_sql_2025/-/commits/main/rc?ref_type=heads"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1733710002949,
+                "title": "[TKE] - Patch",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1733710024611,
+                    "title": "[Patch] - DEV deploy",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=28988"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733710024611,
+                    "title": "[Patch] - DEV2 deploy",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=28989"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733710024612,
+                    "title": "[Patch] - DEV deploy（3248）",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=3248"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733710024612,
+                    "title": "[Patch] - DEV2 deploy（3249）",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=3249"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733710024612,
+                    "title": "[Patch] - Refact - DEV （重构时的记录）",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=8757"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733710024612,
+                    "title": "[Patch] - Singapore的DefineSymbol问题（脚本更新revenue）",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=13780"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733718331953,
+                    "title": "[Patch] - ExchangeRateMoveToLocal",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=19139"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733718378844,
+                    "title": "[Patch] - SEA Installation Hours",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=16882"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733908330495,
+                    "title": "首页新UI",
+                    "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
+                    "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=29000"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
                 "addDate": 1640831850311,
                 "title": "[TKE] - 汇率相关",
                 "children": [
@@ -872,6 +1005,13 @@
                     "title": "⚓ T20093 (ITCM1153273)Migrate errorlog debug table to mongo db",
                     "icon": "https://logo.clearbit.com/rs.tkeasia.com",
                     "url": "https://rs.tkeasia.com/T20093"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733814834347,
+                    "title": "⚓ T31194 (ITCM1610643)CR-Remove validation of customer type",
+                    "icon": "https://logo.clearbit.com/rs.tkeasia.com",
+                    "url": "https://rs.tkeasia.com/T31194"
                   }
                 ]
               },
@@ -982,13 +1122,6 @@
               },
               {
                 "type": "link",
-                "addDate": 1730788393920,
-                "title": "[TKE] - VIEW · GitLab",
-                "icon": "https://logo.clearbit.com/gitk8stest.tkeasia.com",
-                "url": "https://gitk8stest.tkeasia.com/VIEW"
-              },
-              {
-                "type": "link",
                 "addDate": 1723172691305,
                 "title": "[TKE] - SITE LINKS",
                 "icon": "https://logo.clearbit.com/dev2.fos.tkeasia.com",
@@ -1014,34 +1147,6 @@
                 "title": "[TKE] - Jenkins - Deploy tool",
                 "icon": "https://logo.clearbit.com/jenkins.tkeasia.com",
                 "url": "http://jenkins.tkeasia.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1723615183059,
-                "title": "[TKE] - DEV deploy",
-                "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
-                "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=3248"
-              },
-              {
-                "type": "link",
-                "addDate": 1723615183059,
-                "title": "[TKE] - DEV2 deploy",
-                "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
-                "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=3249"
-              },
-              {
-                "type": "link",
-                "addDate": 1723172304068,
-                "title": "[TKE] - Refact - DEV （重构时的记录）",
-                "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
-                "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=8757"
-              },
-              {
-                "type": "link",
-                "addDate": 1723172304068,
-                "title": "[TKE] - Singapore的DefineSymbol问题（脚本更新revenue）",
-                "icon": "https://logo.clearbit.com/intranet.tkeasia.com",
-                "url": "https://intranet.tkeasia.com/general/patch_deployment/deploy_info.php?patchId=13780"
               },
               {
                 "type": "link",
@@ -2332,6 +2437,13 @@
             "title": "国内外主流的 Git 代码托管平台 (持续更新)",
             "icon": "https://logo.clearbit.com/www.cnblogs.com",
             "url": "https://www.cnblogs.com/jetsung/p/git-service.html"
+          },
+          {
+            "type": "link",
+            "addDate": 1732774721523,
+            "title": "[Edge] - 实验",
+            "icon": "https://logo.clearbit.com/flags",
+            "url": "edge://flags/"
           }
         ]
       },
@@ -3042,6 +3154,20 @@
                     "title": "做很多菜时，为什么菜谱上要强调放在冰箱中腌制，更容易入味么？ – 博海拾贝",
                     "icon": "https://logo.clearbit.com/www.bohaishibei.com",
                     "url": "https://www.bohaishibei.com/post/78529/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733110663249,
+                    "title": "搞存量分配 – 博海拾贝",
+                    "icon": "https://logo.clearbit.com/www.bohaishibei.com",
+                    "url": "https://www.bohaishibei.com/post/96041/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733110727209,
+                    "title": "埋钉子，本身就是未雨绸缪，就是在暂时不用的地方下饵料 – 博海拾贝",
+                    "icon": "https://logo.clearbit.com/www.bohaishibei.com",
+                    "url": "https://www.bohaishibei.com/post/96042/"
                   }
                 ]
               },
@@ -3526,6 +3652,13 @@
                 "title": "[政府] - 中国政府网_中央人民政府门户网站",
                 "icon": "https://logo.clearbit.com/www.gov.cn",
                 "url": "https://www.gov.cn/"
+              },
+              {
+                "type": "link",
+                "addDate": 1732864882836,
+                "title": "[新闻] - 刷一下 | 最热",
+                "icon": "https://logo.clearbit.com/news.aolifu.org",
+                "url": "https://news.aolifu.org/c/hottest/"
               }
             ]
           },
@@ -3568,13 +3701,6 @@
                 "title": "[摸鱼] - 假装 Windows 升级界面",
                 "icon": "https://logo.clearbit.com/fakeupdate.net",
                 "url": "https://fakeupdate.net/"
-              },
-              {
-                "type": "link",
-                "addDate": 1731293522654,
-                "title": "[在线电子书] - Neat Reader - Web App 看电子书",
-                "icon": "https://logo.clearbit.com/www.neat-reader.cn",
-                "url": "https://www.neat-reader.cn/webapp#/"
               },
               {
                 "type": "link",
@@ -4572,6 +4698,20 @@
               },
               {
                 "type": "link",
+                "addDate": 1732775617877,
+                "title": "[阅读器] - 在线 EPUB 阅读",
+                "icon": "https://logo.clearbit.com/lwebapp.com",
+                "url": "https://lwebapp.com/zh/epub-reader"
+              },
+              {
+                "type": "link",
+                "addDate": 1732775690603,
+                "title": "[阅读器] - Neat Reader - Web App 看电子书",
+                "icon": "https://logo.clearbit.com/www.neat-reader.cn",
+                "url": "https://www.neat-reader.cn/webapp#/"
+              },
+              {
+                "type": "link",
                 "addDate": 1723287245091,
                 "title": "发现之门 - 电子书网站大全",
                 "icon": "https://logo.clearbit.com/www.wnflb2023.com",
@@ -4739,6 +4879,13 @@
             "title": "首页-四川承启健康管理有限公司",
             "icon": "https://logo.clearbit.com/www.sccqt.com.cn",
             "url": "https://www.sccqt.com.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1733215353304,
+            "title": "ZeroTier - 搜索",
+            "icon": "https://logo.clearbit.com/cn.bing.com",
+            "url": "https://cn.bing.com/search?q=ZeroTier"
           }
         ]
       },
@@ -6800,6 +6947,13 @@
                     "title": "[M3U8] - flybird-downloader: 一个带用户界面的视频下载工具",
                     "icon": "https://logo.clearbit.com/github.com",
                     "url": "https://github.com/youwen21/flybird-downloader"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733480764419,
+                    "title": "Harlan-H/M3u8Downloader_H: [.net6]m3u8下载器,功能强大,多线程,多任务,支持aes-128-cbc解密,自定义请求头,自定义插件",
+                    "icon": "https://logo.clearbit.com/github.com",
+                    "url": "https://github.com/Harlan-H/M3u8Downloader_H"
                   }
                 ]
               },
@@ -8181,6 +8335,34 @@
                     "url": "https://yesicon.app/logos/?lang=zh-hans"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1733965898860,
+                "title": "【图片浏览工具】",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1733965831374,
+                    "title": "[图片浏览] - Quick Picture Viewer",
+                    "icon": "https://logo.clearbit.com/moduleart.github.io",
+                    "url": "https://moduleart.github.io/quickpictureviewer"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733966454862,
+                    "title": "[图片浏览] - Quick Picture Viewer（GitHub）",
+                    "icon": "https://logo.clearbit.com/github.com",
+                    "url": "https://github.com/ModuleArt/quick-picture-viewer"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733966626454,
+                    "title": "[图片浏览] - ImageGlass",
+                    "icon": "https://logo.clearbit.com/github.com",
+                    "url": "https://github.com/d2phap/ImageGlass"
+                  }
+                ]
               }
             ]
           },
@@ -9339,6 +9521,20 @@
                         "title": "[直播源] - IPTV直播源抓取 自动整合",
                         "icon": "https://logo.clearbit.com/github.com",
                         "url": "https://github.com/joevess/IPTV"
+                      },
+                      {
+                        "type": "link",
+                        "addDate": 1733968353326,
+                        "title": "[直播源] - 一个全球 EPG 电视节目表",
+                        "icon": "https://logo.clearbit.com/m3u.ibert.me",
+                        "url": "https://m3u.ibert.me/"
+                      },
+                      {
+                        "type": "link",
+                        "addDate": 1733968400790,
+                        "title": "[直播源] - 自动更新 IPTV 源",
+                        "icon": "https://logo.clearbit.com/owen2000wy.github.io",
+                        "url": "https://owen2000wy.github.io/"
                       }
                     ]
                   },
@@ -10216,6 +10412,13 @@
                     "title": "GBT乐赏游戏空间",
                     "icon": "https://logo.clearbit.com/gbtgame.ysepan.com",
                     "url": "http://gbtgame.ysepan.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1733139505889,
+                    "title": "5DMCITY",
+                    "icon": "https://logo.clearbit.com/www.5dmcitygame.com",
+                    "url": "https://www.5dmcitygame.com/"
                   }
                 ]
               },
@@ -10298,17 +10501,17 @@
               },
               {
                 "type": "link",
+                "addDate": 1732761569633,
+                "title": "[漫画] - 高清Kindle格式漫画下载",
+                "icon": "https://logo.clearbit.com/www.moxmoemh.com",
+                "url": "https://www.moxmoemh.com/"
+              },
+              {
+                "type": "link",
                 "addDate": 1723286779143,
                 "title": "一些漫画网站",
                 "icon": "https://logo.clearbit.com/www.wnflb2023.com",
                 "url": "https://www.wnflb2023.com/forum.php?mod=viewthread&tid=212929&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline"
-              },
-              {
-                "type": "link",
-                "addDate": 1732761569633,
-                "title": "moxmoe漫画官网_高清Kindle格式漫画免费下载",
-                "icon": "https://logo.clearbit.com/www.moxmoemh.com",
-                "url": "https://www.moxmoemh.com/"
               }
             ]
           },
@@ -11338,6 +11541,13 @@
                 "title": "WindowsNAS 篇一：Windows NAS从装机到软件安装_NAS存储_什么值得买",
                 "icon": "https://logo.clearbit.com/post.smzdm.com",
                 "url": "https://post.smzdm.com/p/a7nm6w8l/"
+              },
+              {
+                "type": "link",
+                "addDate": 1732858946257,
+                "title": "极空间z423旗舰版开箱 - 原创分享(新) - Chiphell - 分享与交流用户体验",
+                "icon": "https://logo.clearbit.com/www.chiphell.com",
+                "url": "https://www.chiphell.com/thread-2591528-1-1.html"
               }
             ]
           },
@@ -12239,6 +12449,27 @@
                     "title": "“裤里难”的视频合集 - 好色™ Tv",
                     "icon": "https://logo.clearbit.com/hsex.icu",
                     "url": "https://hsex.icu/user.htm?author=%E8%A3%A4%E9%87%8C%E9%9A%BE"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1732801294339,
+                    "title": "“Bbc柚子先生”的视频合集 - 好色™ Tv",
+                    "icon": "https://logo.clearbit.com/hsex.icu",
+                    "url": "https://hsex.icu/user.htm?author=Bbc%E6%9F%9A%E5%AD%90%E5%85%88%E7%94%9F"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1732801549507,
+                    "title": "“大神约炮渠道”的视频合集 - 好色™ Tv",
+                    "icon": "https://logo.clearbit.com/hsex.icu",
+                    "url": "https://hsex.icu/user.htm?author=%E5%A4%A7%E7%A5%9E%E7%BA%A6%E7%82%AE%E6%B8%A0%E9%81%93"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1732801681226,
+                    "title": "“91苏乞儿”的视频合集 - 好色™ Tv",
+                    "icon": "https://logo.clearbit.com/hsex.icu",
+                    "url": "https://hsex.icu/user.htm?author=91%E8%8B%8F%E4%B9%9E%E5%84%BF"
                   }
                 ]
               },
@@ -13802,6 +14033,20 @@
                 "title": "谈性说爱中文网",
                 "icon": "https://logo.clearbit.com/matters.love",
                 "url": "https://matters.love/"
+              },
+              {
+                "type": "link",
+                "addDate": 1733402603672,
+                "title": "爱豆",
+                "icon": "https://logo.clearbit.com/ww5.aido2.cc",
+                "url": "https://ww5.aido2.cc/"
+              },
+              {
+                "type": "link",
+                "addDate": 1733569017937,
+                "title": "最新-",
+                "icon": "https://logo.clearbit.com/btt806.com",
+                "url": "https://btt806.com/?s=vod-show-id-1.html"
               }
             ]
           }
@@ -14306,6 +14551,20 @@
                 "title": "汽车之家|T31老奇骏10、12款CVT变速箱试油成功（附上NS2和NS2V对比）|奇骏|论坛",
                 "icon": "https://logo.clearbit.com/club.autohome.com.cn",
                 "url": "https://club.autohome.com.cn/bbs/thread/42aa86ae99af6162/95373009-1.html#13"
+              },
+              {
+                "type": "link",
+                "addDate": 1733051558341,
+                "title": "汽车之家|日产逍客无损改装60Ah蓄电池之经验分享|逍客|论坛",
+                "icon": "https://logo.clearbit.com/club.autohome.com.cn",
+                "url": "https://club.autohome.com.cn/bbs/thread/7942a9b5ff62885b/79269107-1.html"
+              },
+              {
+                "type": "link",
+                "addDate": 1733051572453,
+                "title": "2012款逍客电瓶型号是什么_百度知道",
+                "icon": "https://logo.clearbit.com/zhidao.baidu.com",
+                "url": "https://zhidao.baidu.com/question/1549511844674019907.html"
               }
             ]
           },
@@ -14679,6 +14938,34 @@
             "title": "一个好用的影视网盘资源搜索网站 - 发现之门 - 福利吧论坛/万能的福利吧 - Powered by Discuz!",
             "icon": "https://logo.clearbit.com/www.wnflb2023.com",
             "url": "https://www.wnflb2023.com/forum.php?mod=viewthread&tid=246555&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline&_dsign=acaaec92"
+          },
+          {
+            "type": "link",
+            "addDate": 1732775735603,
+            "title": "绿软集合 - 一个高效、绿色、纯净的常用软件工具箱",
+            "icon": "https://logo.clearbit.com/www.greensoftwarehub.com",
+            "url": "https://www.greensoftwarehub.com/download.html"
+          },
+          {
+            "type": "link",
+            "addDate": 1732776328973,
+            "title": "帮忙看组装台式机配置 - 发现之门 - 福利吧论坛/万能的福利吧 - Powered by Discuz!",
+            "icon": "https://logo.clearbit.com/www.wnflb2023.com",
+            "url": "https://www.wnflb2023.com/forum.php?mod=viewthread&tid=246723&extra=page%3D1%26filter%3Dauthor%26orderby%3Ddateline&_dsign=8b041950"
+          },
+          {
+            "type": "link",
+            "addDate": 1733123331387,
+            "title": "大家分享一下自己起的名字吧【霍格沃茨遗产吧】_百度贴吧",
+            "icon": "https://logo.clearbit.com/tieba.baidu.com",
+            "url": "https://tieba.baidu.com/p/8270956979"
+          },
+          {
+            "type": "link",
+            "addDate": 1733283351980,
+            "title": "为什么饭店里的鸡汤很清，而且很好喝？ – 博海拾贝",
+            "icon": "https://logo.clearbit.com/www.bohaishibei.com",
+            "url": "https://www.bohaishibei.com/post/96095/"
           }
         ]
       },
